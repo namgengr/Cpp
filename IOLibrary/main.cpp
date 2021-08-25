@@ -5,6 +5,7 @@ int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
+    // from C++ Primer 5th Ed. Lippman et al.
     std::cout << "Enter two numbers:" << std::endl;
     int v1 = 0, v2 = 0;
     std::cin >> v1 >> v2;
