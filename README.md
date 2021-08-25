@@ -1,2 +1,2 @@
-The repository contains various Qt and C++ tutorials and sample projects
+The repository contains various Qt C++ tutorials and sample projects
  
