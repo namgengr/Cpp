@@ -1,6 +1,12 @@
 #include <QCoreApplication>
 #include <iostream>
 
+/*
+ * Name: Tom Roberts
+ * Subject: IOLibrary usage
+ * Reference: C++ Primer 5th Edition, Lippman et. al.
+ */
+
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
