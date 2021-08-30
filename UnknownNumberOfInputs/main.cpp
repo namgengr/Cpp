@@ -9,8 +9,9 @@ int main(int argc, char *argv[])
     int sum = 0, value = 0;
     // read until end of file, calculating the running total of
     // all values read
-    // Note: you have to enter in a non-numeric character at the end
-    // to get this program to work!
+    // Note: You have to signal an EOF (ctrl-Z after you enter in
+    // the numbers to tell the terminal app you are at the end. Or,
+    // just enter any non-integer number
     std::cout << "Input some numbers." << std::endl;
     while(std::cin >> value)
     {
