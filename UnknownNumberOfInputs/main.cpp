@@ -2,6 +2,12 @@
 #include <iostream>
 #include <QDebug>
 
+/*
+ * Name: Tom Roberts
+ * Subject: reading an unknown number of inputs
+ * Reference: C++ Primer 5th Edition, Lippman et. al. pp 14-15
+ */
+
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
