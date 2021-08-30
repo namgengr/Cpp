@@ -39,6 +39,6 @@ int main(int argc, char *argv[])
         qDebug() << v1;
         ++v1;
     }
-
+    std::cout << "the end" << std::endl;
     return a.exec();
 }
