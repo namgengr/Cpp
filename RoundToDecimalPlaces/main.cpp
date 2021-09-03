@@ -16,8 +16,7 @@ double showDecimals(const double& num, const int& numDecimals) {
     int i=num;
     double fractional=num-i;
     double mult=pow(10,numDecimals);
-    double newNum=fractional*mult;
-    double r=round(newNum);
+    double r=round(fractional*mult);
 
     return static_cast<double>(i)+(1.0/mult)*r;
 }
