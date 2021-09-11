@@ -6,4 +6,5 @@ The repository contains various Qt C++ tutorials and sample projects.
 * IfStatement - If Statement syntax and examples
 * IOLibrary - IO Library syntax and examples
 * MemberFunctions - Member Function description and example
+* QTabWidget - Demonstrates inserting widget objects into the QTabWidget control
  
