@@ -1,8 +1,8 @@
 The repository contains various Qt C++ tutorials and sample projects.
     
-* Comments - commenting syntax
+* Comments - commenting syntax and examples
 * ESeriesRLC - Derivation of preferred Resistor, Inductor and Capacitor (RLC) standard values
-* Item 3
+* ForStatement - For Statement syntax and examples
 * Item 4
 * Item 5
 * Item 6
