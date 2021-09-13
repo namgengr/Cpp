@@ -1,9 +1,13 @@
 The repository contains various Qt C++ tutorials and sample projects.
     
 * Comments - commenting syntax and examples
-* ESeriesRLC - Derivation of preferred Resistor, Inductor and Capacitor (RLC) standard values
+* ESeriesRLC - derivation of preferred Resistor, Inductor and Capacitor (RLC) standard values
 * ForStatement - For Statement syntax and examples
-* Item 4
-* Item 5
-* Item 6
+* IfStatement - If Statement syntax and examples
+* IOLibrary - IO Library syntax and examples
+* MemberFunctions - Member Function description and example
+* QTabWidget - demonstrates inserting different widget objects into the QTabWidget control
+* QTextStream - demonstrates the use of QTextStream
+* RoundToDecimalPlaces - a method that returns a double rounded to a specified number of decimal places.
+* SalesItem - using the Sales_item class referenced in C++ primer, Lippman et. al. 5th ed.
  
