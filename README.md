@@ -2,6 +2,7 @@ The repository contains various Qt C++ tutorials and sample projects.
     
 * Comments - commenting syntax and examples
 * ESeriesRLC - derivation of preferred Resistor, Inductor and Capacitor (RLC) standard values
+* EscapeSequences - basic escape sequences and usage
 * ForStatement - For Statement syntax and examples
 * IfStatement - If Statement syntax and examples
 * IOLibrary - IO Library syntax and examples
