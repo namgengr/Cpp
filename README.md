@@ -8,4 +8,5 @@ The repository contains various Qt C++ tutorials and sample projects.
 * MemberFunctions - Member Function description and example
 * QTabWidget - demonstrates inserting different widget objects into the QTabWidget control
 * QTextStream - demonstrates the use of QTextStream
+* RoundToDecimalPlaces - a method that returns a double rounded to a specified number of decimal places.
  
