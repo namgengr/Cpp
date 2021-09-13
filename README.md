@@ -9,4 +9,5 @@ The repository contains various Qt C++ tutorials and sample projects.
 * QTabWidget - demonstrates inserting different widget objects into the QTabWidget control
 * QTextStream - demonstrates the use of QTextStream
 * RoundToDecimalPlaces - a method that returns a double rounded to a specified number of decimal places.
+* SalesItem - using the Sales_item class referenced in C++ primer, Lippman et. al. 5th ed.
  
