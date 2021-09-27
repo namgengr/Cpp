@@ -15,5 +15,5 @@ The repository contains various C++ tutorials and sample projects using the Qt I
 * UnknownNumberOfInputs - uses a while loop to read std::cin of an unknown number of inputs
 * UnsignedTypes - covers few pitfalls of using unsigned types
 * WhileStatement - while statement syntax and examples
-* next line here...
+* extern - use of extern keyword and global variables
  
