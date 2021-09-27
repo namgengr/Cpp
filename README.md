@@ -9,6 +9,7 @@ The repository contains various C++ tutorials and sample projects using the Qt I
 * IfStatement - If Statement syntax and examples
 * IOLibrary - IO Library syntax and examples
 * Initializers - initialization examples
+* Literals - covers character, integer and floating point literals
 * MemberFunctions - Member Function description and example
 * References - reference operator and address-of syntax usage
 * RoundToDecimalPlaces - a method that returns a double rounded to a specified number of decimal places.
