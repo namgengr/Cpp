@@ -19,7 +19,8 @@ int main(int argc, char *argv[])
     int &refVal = ival; // refVal refers to ival
 
     //int &refVal2; // error: a reference must be initialized
-    std::cout << "Declaring int &refVal2; produces an error since a reference must be initialized" << std::endl;
+    std::cout << "Declaring int &refVal2; produces an error since a "
+                "reference must be initialized" << std::endl;
     std::cout << std::endl;
 
     std::cout << "The value of refVal (where ival = 1024 and &refVal = ival) equals "
@@ -48,20 +49,24 @@ int main(int argc, char *argv[])
     std::cout << std::endl;
 
     //int &refVal3 = 10; // error: an intitializer must be an object
-    std::cout << "Assigning &refVal3 = 10 produces an error since an intitializer must be an object" << std::endl;
+    std::cout << "Assigning &refVal3 = 10 produces an error since an "
+                "intitializer must be an object" << std::endl;
     std::cout << std::endl;
 
     double dval = 3.14;
     //int &refVal4 = dval; // error; initializer must be an int object
     std::cout << "double dval = 3.14" << dval << std::endl;
-    std::cout << "Declaring int &refVal4 = dval; produces an error since types do not match" << std::endl;
+    std::cout << "Declaring int &refVal4 = dval; produces an error since "
+                "types do not match" << std::endl;
     std::cout << std::endl;
 
     int k = 0, &r1 = k; double d = 0, &r2 = d;
-    r2 = 3.14159; // assign 3.14159 to the object to which the refrerence r2 is bound (i.e. d), d is assigned 3.14159 and r2 is 3.14159
-    r2 = r1;        // assign r1 (i.e k) to the object which the reference r2 is bound (i.e. d), d is assigned 0 and r2 is zero
-    k = r2; // assign reference r2 to k, k is now 0
-    r1 = d; // assign d to the object to which the reference r1 is bound (i.e. k), k is assigned 0
+    r2 = 3.14159; // assign 3.14159 to the object to which the refrerence r2 is bound (i.e. d),
+                  // d is assigned 3.14159 and r2 is 3.14159
+    r2 = r1;      // assign r1 (i.e k) to the object which the reference r2 is bound (i.e. d),
+                  // d is assigned 0 and r2 is 0
+    k = r2;       // assign reference r2 to k, r2 is 0 so k is now 0
+    r1 = d;       // assign d to the object to which the reference r1 is bound (i.e. k), k is assigned 0
     std::cout << "Exercise 2.16: k = " <<  k << ", r1 = " << r1 << ", d = " << d << ", r2 = " << r2 << std::endl;
 
     // Exercise 2.17:
