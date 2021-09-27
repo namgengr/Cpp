@@ -9,8 +9,7 @@ The repository contains various C++ tutorials and sample projects using the Qt I
 * IfStatement - If Statement syntax and examples
 * IOLibrary - IO Library syntax and examples
 * MemberFunctions - Member Function description and example
-* QTabWidget - demonstrates inserting different widget objects into the QTabWidget control
-* QTextStream - demonstrates the use of QTextStream
+* References - reference operator and address-of syntax usage
 * RoundToDecimalPlaces - a method that returns a double rounded to a specified number of decimal places.
 * SalesItem - using the Sales_item class referenced in C++ primer, Lippman et. al. 5th ed.
 * UnknownNumberOfInputs - uses a while loop to read std::cin of an unknown number of inputs
