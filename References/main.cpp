@@ -11,17 +11,15 @@ int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
-    int ival = 1024;
-
     // a reference defineds an alternative type for an object. A
     // reference type refers to another type. A reference is not an
     // object and is just another name for an already existing object.
+    int ival = 1024;
     int &refVal = ival; // refVal refers to ival
 
     //int &refVal2; // error: a reference must be initialized
     std::cout << "Declaring int &refVal2; produces an error since a "
-                "reference must be initialized" << std::endl;
-    std::cout << std::endl;
+                "reference must be initialized\n" << std::endl;
 
     std::cout << "The value of refVal (where ival = 1024 and &refVal = ival) equals "
           << refVal << std::endl;
@@ -50,15 +48,13 @@ int main(int argc, char *argv[])
 
     //int &refVal3 = 10; // error: an intitializer must be an object
     std::cout << "Assigning &refVal3 = 10 produces an error since an "
-                "intitializer must be an object" << std::endl;
-    std::cout << std::endl;
+                "intitializer must be an object\n" << std::endl;
 
     double dval = 3.14;
     //int &refVal4 = dval; // error; initializer must be an int object
     std::cout << "double dval = 3.14" << dval << std::endl;
     std::cout << "Declaring int &refVal4 = dval; produces an error since "
-                "types do not match" << std::endl;
-    std::cout << std::endl;
+                "types do not match\n" << std::endl;
 
     int k = 0, &r1 = k; double d = 0, &r2 = d;
     r2 = 3.14159; // assign 3.14159 to the object to which the refrerence r2 is bound (i.e. d),
