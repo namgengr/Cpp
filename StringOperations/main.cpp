@@ -5,7 +5,7 @@
 /*
  * Name: Tom Roberts
  * Subject: Operations on Strings
- * Reference: C++ primer 5th Ed. Lippman et al. pp 85-87
+ * Reference: C++ primer 5th Ed. Lippman et al. pp 85-88
  */
 
 using std::cin; using std::cout; using std::endl;
