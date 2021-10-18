@@ -11,6 +11,8 @@ The repository contains various C++ tutorials and sample projects using the Qt I
 * Initializers - initialization examples
 * Literals - covers character, integer and floating point literals
 * MemberFunctions - Member Function description and example
+* PointerTypeModifierPlacement - covers the placement style of type modifiers
+* Pointers - covers basic examples of using a pointer compound type.
 * References - reference operator and address-of syntax usage
 * RoundToDecimalPlaces - a method that returns a double rounded to a specified number of decimal places.
 * SalesItem - using the Sales_item class referenced in C++ primer, Lippman et. al. 5th ed.
