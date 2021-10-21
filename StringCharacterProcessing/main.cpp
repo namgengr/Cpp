@@ -31,7 +31,45 @@ int main(int argc, char *argv[])
             ++punct_cnt;
     cout << punct_cnt
          << " Punctuation characters in "
-         << s << endl << endl;
+         << s << endl;
+
+    cout << endl;
+    s = " Hello W0rld! ";
+    decltype (s.size()) alnum_cnt = 0;
+    for (auto c : s) {
+        if (!isalnum(c)) {
+            cout << "non-alpha numeric character at position index "
+                << alnum_cnt << " in " << s << endl;
+        }
+        ++alnum_cnt;
+    }
+
+    cout << endl;
+    decltype (s.size()) digit_cnt = 0;
+    for (auto c : s) {
+        if (isdigit(c))
+            cout << "digit character at position index "
+                << digit_cnt << " in " << s << endl;
+        ++digit_cnt;
+    }
+
+    cout << endl;
+    decltype (s.size()) letter_cnt = 0;
+    for (auto c : s) {
+        if (isalpha(c))
+            ++letter_cnt;
+    }
+    cout << letter_cnt << " letter characters in "
+         << s << endl;
+
+    cout << endl;
+    decltype (s.size()) space_cnt = 0;
+    for (auto c : s) {
+        if (isspace(c))
+            cout << "whitespace at position index "
+                << space_cnt << " in " << s << endl;
+        ++space_cnt;
+    }
 
     return a.exec();
 }
