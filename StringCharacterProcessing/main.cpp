@@ -144,7 +144,6 @@ int main(int argc, char *argv[])
         if (!isspace(s[index]))
                 s[index] = char('X');
     cout << s << endl;
-    cout << endl;
 
     // Exersize 3.9
     // What does the following program do. Is it valid or not?
@@ -160,7 +159,7 @@ int main(int argc, char *argv[])
     for (auto &c : r)
         if (ispunct(c))
             c = (char) 0;
-    cout << "With punctuation removed...";
+    cout << "With punctuation removed..." << endl;
     cout << r << endl;  // writes "Hello World"
 
     // Exercise 3.11
