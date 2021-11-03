@@ -1,6 +1,7 @@
 #include <QCoreApplication>
 #include <iostream>
 #include <iomanip>
+#include "math.h"
 
 /*
  * Name: Tom Roberts
